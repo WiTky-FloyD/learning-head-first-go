@@ -1,0 +1,7 @@
+reflect.Type(25) ---> int
+reflect.Type(true) ---> bool
+reflect.Type(5.2) ---> float
+reflect.Type(1) ---> int
+reflect.Type(false) ---> bool 
+reflect.Type(1.0) ---> float
+reflect.Type("hello") ---> string

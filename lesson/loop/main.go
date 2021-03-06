@@ -38,6 +38,21 @@ func main()  {
 		fmt.Println(y)
 		y--
 	}
+	line()
+
+	for x := 0; x <= 5; x++ {
+		fmt.Println("Before continue")
+		continue
+		fmt.Println("After continue")
+	}
+	line()
+
+	for x := 0; x <= 5; x++ {
+		fmt.Println("Before break")
+		break
+		fmt.Println("After break")
+	}
+	fmt.Println("After loop")
 }
 
 func line() {
